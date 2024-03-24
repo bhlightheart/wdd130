@@ -1,0 +1,176 @@
+html,
+body,
+div,
+header,
+nav,
+main,
+section,
+article,
+aside,
+h1,
+h2,
+p,
+img,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: white
+}
+
+body {
+  font-family: 'Roboto', sans-serif; 
+}
+
+main {
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.intro-box {
+  text-align: center;
+  background-color: #224870;
+  border-radius: 5px;
+  padding: 10px; 
+  margin: 20px auto; 
+  max-width: 200px; 
+}
+
+.intro-box h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.content-box {
+  display: flex;
+  align-items: center;
+  background-color: #224870;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+.text-content {
+  flex: 1;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.text-content h2 {
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.hardhat img,
+.safetysigns img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #122C34;
+  color: #fff;
+  padding: 20px;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px; 
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+}
+
+.nav-box {
+  background-color: #4EA5D9; 
+  padding: 10px 15px; 
+  border-radius: 5px; 
+  margin-right: 20px;
+  text-align: left; 
+}
+
+.nav-box + .nav-box {
+  margin-left: 20px; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#hero {
+  background-color: #224870;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  height: 200px; 
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 2em; 
+  line-height: 200px; 
+  font-family: 'Raleway'
+}
+
+footer {
+  background-color: #122C34;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content p,
+.footer-content a {
+  margin: 0;
+  color: #fff; 
+}
+
+.footer-content .social img {
+  width: 30px; 
+  height: auto;
+}
+
+.linkedin-box {
+  background-color: #fff; 
+  padding: 5px; 
+  border-radius: 5px; 
+}
+
+.social img {
+  width: 30px;
+  height: auto;
+}
+
+
+
+
+
