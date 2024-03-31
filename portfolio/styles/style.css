@@ -2,6 +2,7 @@ html,
 body,
 div,
 header,
+footer,
 nav,
 main,
 section,
@@ -18,11 +19,11 @@ a {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  color: white
+  
 }
 
 body {
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
 }
 
 main {
@@ -36,7 +37,7 @@ main {
   border-radius: 5px;
   padding: 10px; 
   margin: 20px auto; 
-  max-width: 200px; 
+  max-width: 90%; 
 }
 
 .intro-box h2 {
@@ -46,18 +47,32 @@ main {
 
 .content-box {
   display: flex;
-  align-items: center;
+  flex-direction: column; 
+  align-items: stretch; 
   background-color: #224870;
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-
 .text-content {
-  flex: 1;
-  padding: 0 20px;
-  text-align: center;
+  flex: 2; 
+  padding: 0; 
+  text-align: justify;
+}
+
+.image-container {
+  flex: 1; 
+}
+
+.image-container img {
+  max-width: 100%; 
+  height: auto;
+}
+
+.text-container {
+  flex: 2;
+  margin-left: 20px;
 }
 
 .text-content h2 {
@@ -67,6 +82,12 @@ main {
 .text-content p {
   margin-bottom: 20px;
   font-size: 1.2em;
+}
+
+.hardhat,
+.safetysigns {
+  max-width: 90%; 
+  margin: 0 auto 20px; 
 }
 
 .hardhat img,
@@ -120,38 +141,40 @@ nav a {
 #hero {
   background-color: #224870;
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px 10px; 
   text-align: center; 
   margin-top: 20px; 
   margin-bottom: 20px; 
-  height: 200px; 
+  height: auto;
 }
 
 #hero h1 {
   margin: 0;
   font-size: 2em; 
-  line-height: 200px; 
+  line-height: 1.2;
   font-family: 'Raleway'
 }
 
 footer {
   background-color: #122C34;
   color: #fff;
-  padding: 20px;
+  padding: 20px 10px; 
 }
 
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
+  flex-direction: column; 
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
 }
 
 .footer-content p,
 .footer-content a {
   margin: 0;
   color: #fff; 
+  margin-bottom: 10px; 
 }
 
 .footer-content .social img {
@@ -169,6 +192,60 @@ footer {
   width: 30px;
   height: auto;
 }
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; 
+}
+
+.image-container,
+.text-container {
+  flex: 0 0 auto; 
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  align-items: center; 
+}
+
+.image-container {
+  flex: 0 0 calc(16.666% - 10px); 
+  margin-right: 20px;
+  border: 10px solid black; 
+  border-radius: 5px; 
+}
+
+.text-container {
+  flex: 1;
+  background-color: #224870;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #fff; 
+}
+
+.box {
+  background-color: #224870;
+  border-radius: 5px;
+  padding: 10px; 
+  margin: 20px auto; 
+  max-width: 90%;
+}
+
+#head-box {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+
+
+
+
+
 
 
 
