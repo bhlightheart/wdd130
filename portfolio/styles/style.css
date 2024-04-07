@@ -177,22 +177,23 @@ footer {
   margin-bottom: 10px; 
 }
 
-.footer-content .social img {
-  width: 30px; 
-  height: auto;
-}
-
-.linkedin-box {
-  background-color: #fff; 
-  padding: 5px; 
-  border-radius: 5px; 
-}
-
-.social img {
+.fa {
+  padding: 20px;
+  font-size: 30px;
   width: 30px;
-  height: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
 
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
 
 .container {
   display: flex;
